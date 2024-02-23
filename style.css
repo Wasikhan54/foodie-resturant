@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #ffc107;
+    --green: #42b35c;
+    --gray: #e4e3e3;
+}
+
+/* <!-- ==============================================
+                      HEADER
+============================================== --> */
+
+#navbarNavAltMarkup {
+    justify-content: end;
+}
+
+.active {
+    font-weight: 600 !important;
+
+}
+
+.nav-item {
+    padding: 0 15px !important;
+}
+
+.one {
+    margin-top: 100px;
+
+}
+
+.one h1 {
+    font-size: 70px;
+}
+
+.one p {
+    margin: 42px 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.inp input {
+    margin: 15px 0;
+    padding: 7px 25px;
+    width: 60%;
+    outline: none;
+    border: 1px solid #fafafa;
+    border-radius: 0px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -ms-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+.inp input[type=text]:focus,
+.inp input[type="password"]:focus {
+    border-color: rgb(238, 239, 241);
+}
+
+button {
+    color: #ffff !important;
+    border: 2px solid #42b35c;
+    background: linear-gradient(70deg, #42b35c 54%, rgb(49 155 42) 65%);
+    padding: 8px 16px;
+    border-radius: 10px !important;
+}
+
+.second-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.second-sec h5 {
+    color: var(--yellow);
+}
+
+.second-sec h2 {
+    /* color: var(--yellow); */
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.second {
+    margin: 50px 0;
+}
+
+.third-sec {
+    margin: 50px 0 50px 0;
+}
+
+.third-sec h5 {
+
+    color: var(--yellow);
+}
+
+#card {
+    background-color: #ffffff !important;
+    border-bottom: 3px solid var(--green) !important;
+}
+
+.card {
+
+    /* border-radius: 20px !important; */
+    padding: 30px;
+    border: none !important;
+
+    background-color: var(--gray) !important;
+}
+
+.card i {
+    font-size: 36px;
+    color: var(--green);
+}
+
+.card p {
+    font-size: 16px;
+    /* color: var(--green); */
+}
+
+.card h5 {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 7px;
+    /* color: var(--green); */
+}
+
+.fifith-sec img {
+    height: 65vh;
+    width: 100%;
+}
+
+.latest img {
+    border-radius: 20px;
+    width: 85%;
+    height: 100%;
+}
+.latest h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.latest p{
+    font-size: 15px;
+}
+.latest h5{
+    color: var(--yellow);
+    font-size: 16px;
+    /* font-weight: 600; */
+    margin-top: -5px;
+}
+.lorem{
+    flex-direction: column;
+}
